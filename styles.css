@@ -1,0 +1,126 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    word-wrap: normal;
+
+}
+.logo{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#F68009;
+    align-items: center;
+    height: 70px;
+font-size: 1.2rem;   
+}
+.logoimg{
+    width: 40px;
+    height: auto;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+        display: inline;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+
+footer{
+    background-color: #F68009;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DCE6F0;
+}
+.heroes{
+    align-self: center;
+}
+.hero :is(.herotext){
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 50px;
+    align-self: center;
+justify-self: center;
+color: #097FF6
+}
+.ad{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media Screen  and (max-width:600PX ) {
+    .header{
+        height: auto;
+    }
+
+    .hero :is(.herotext){
+        font-size: 17px;
+        
+
+    }
+
+    .ad{
+        font-size: 0.4rem;
+        text-transform: uppercase;
+        font-weight: bold;}
+
+        .heroimg{
+            width: 100px;
+            height: 150px;
+            margin-bottom: 0;
+           }
+    
+}
+
+.card{
+    background-color: #366696;
+    border-radius: 20px;
+    width: 100px;
+    height: fit-content;
+    display: grid;
+    place-items: center;
+    
+}
+
+p {
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+.action{
+    background-color: #DCE6F0;
+    color: #05529F;
+    
+    border-radius: 15px;
+    padding: 3px;
+}
+.price{
+    color: #DCE6F0;
+    font-size: 1.3rem;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+justify-items: start;}
